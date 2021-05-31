@@ -24,7 +24,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId){
-            R.id.item_1 -> {
+            R.id.item_3 -> {
+                Log.d("CLICK","Click no Item 3")
                 true
             }else -> super.onOptionsItemSelected(item)
         }
